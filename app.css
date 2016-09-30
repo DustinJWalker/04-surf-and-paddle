@@ -71,12 +71,22 @@ body {
   text-align: center;
 }
 
+.post-author  {
+  display: flex;
+  align-items: center;
+  margin-left: 2rem;
+}
 .post-author img {
   border-radius: 50%;
 }
 
 .post-author a  {
   text-decoration: none;
+  margin-left: 1rem;
+}
+
+.post-date  {
+  margin-left: 1rem;
 }
 
 .hero-big__text {
@@ -102,4 +112,24 @@ body {
 }
 .body-left  {
   margin-top: 13rem;
+}
+
+.img {
+  max-width: 100%;
+}
+
+.img-parent {
+  max-width: 10%;
+}
+
+.body-right  {
+  align-items:
+}
+
+.auth_profile img {
+  border-radius: 50%;
+}
+
+.img-parent_sidebar  {
+  max-width: 10%;
 }

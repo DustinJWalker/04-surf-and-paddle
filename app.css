@@ -110,6 +110,7 @@ a {
 .footer-headline {
   text-align: center;
   color: navy;
+  border-top: 1px solid;
 }
 
 .side-bar_heading {

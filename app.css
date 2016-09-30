@@ -7,22 +7,27 @@ body {
   box-sizing: border-box;
 }
 
-.hero {
+.hero img {
   background-image: url'(splash.com/collections/144661/surf-views)';
   background-repeat:no-repeat;
   background-position: center center;
 }
 
 .main  {
-  margin-top: 4rem;
+
+  width: calc(100% / 2 - 1rem 1rem);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
 }
 
 .footer   {
   margin-top: 4rem;
 }
 .hero-container {
-  max-width: 65rem;
-  margin: 0 auto;
+  margin: 2rem;
+
 }
 
 .top-nav {
@@ -86,4 +91,15 @@ body {
 
 .footer-headline  {
   text-align: center;
+}
+
+.side-bar_heading  {
+  text-align: center;
+}
+
+.side-bar  {
+  text-align: center;
+}
+.body-left  {
+  margin-top: 13rem;
 }

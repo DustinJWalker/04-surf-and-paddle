@@ -9,25 +9,24 @@ body {
 
 .hero img {
   background-image: url'(splash.com/collections/144661/surf-views)';
-  background-repeat:no-repeat;
+  background-repeat: no-repeat;
   background-position: center center;
 }
 
-.main  {
-
+.main {
   width: calc(100% / 2 - 1rem 1rem);
   display: flex;
   justify-content: space-between;
   align-items: center;
-
+  margin: auto;
 }
 
-.footer   {
+.footer {
   margin-top: 4rem;
 }
+
 .hero-container {
   margin: 2rem;
-
 }
 
 .top-nav {
@@ -48,7 +47,6 @@ body {
   list-style: none;
 }
 
-
 .top-nav img {
   border-radius: 50%;
   height: 2em;
@@ -67,26 +65,28 @@ body {
   text-decoration: none;
 }
 
-.headline  {
+.headline {
   text-align: center;
   font-size: 3rem;
 }
 
-.post-author  {
+.post-author {
   display: flex;
   align-items: center;
   margin-left: 2rem;
+  text-align: center;
 }
+
 .post-author img {
   border-radius: 50%;
 }
 
-.post-author a  {
+.post-author a {
   text-decoration: none;
   margin-left: 1rem;
 }
 
-.post-date  {
+.post-date {
   margin-left: 1rem;
 }
 
@@ -96,23 +96,25 @@ body {
   text-align: center;
 }
 
-.hero-small__text  {
+.hero-small__text {
   text-align: center;
 }
 
-.footer-headline  {
+.footer-headline {
   text-align: center;
 }
 
-.side-bar_heading  {
+.side-bar_heading {
   text-align: center;
 }
 
-.side-bar  {
-  text-align: center;
+.side-bar {
+  display: flex;
+  justify-content: center;
 }
-.body-left  {
-  margin-top: 13rem;
+
+.body-left {
+  margin-top: 2rem;
 }
 
 .img {
@@ -123,11 +125,11 @@ body {
   max-width: 10%;
 }
 
-.body-right  {
-  align-items:
+.body-right {
+  margin-top: 2rem;
 }
 
-.auth_profile{
+.auth_profile {
   display: flex;
   align-items: center;
   margin-left: 15rem;
@@ -136,29 +138,47 @@ body {
 
 .auth_profile img {
   border-radius: 50%;
-
 }
 
-.img-parent_sidebar  {
+.img-parent_sidebar {
   margin-top: 1rem;
   max-width: 25%;
 }
 
-.social-btn  {
+.social-btn {
   display: flex;
   align-items: center;
-  margin-left: 10rem;
+  margin-left: 1 rem;
   margin-top: 2rem;
   border: none;
+  justify-content: center;
 }
 
-.ad-img  {
+.ad-img {
   margin-top: 1rem;
-  padding: 2rem;
+  padding-left: 11rem;
+}
+
+.ad {
+  margin-left: 6rem;
+  display: flex;
+}
+
+.click-bait {
+  margin-left: 4rem;
+  font-size: 2rem;
+  color: navy;
+}
+
+.btn {
   display: flex;
   justify-content: center;
 }
 
-.ad {
-  display: flex;
+.side-bar {
+  color: navy;
+}
+
+.side-bar_text {
+  text-align: center;
 }

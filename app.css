@@ -7,6 +7,10 @@ body {
   box-sizing: border-box;
 }
 
+a {
+  text-decoration: none;
+  color: navy;
+}
 .hero img {
   background-image: url'(splash.com/collections/144661/surf-views)';
   background-repeat: no-repeat;
@@ -14,15 +18,17 @@ body {
 }
 
 .main {
-  width: calc(100% / 2 - 1rem 1rem);
+  /*width: calc(100% / 2 - 1rem 1rem);*/
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin: auto;
+  max-width: 80%;
 }
 
 .footer {
   margin-top: 4rem;
+  border: 1px solid;
 }
 
 .hero-container {
@@ -84,6 +90,7 @@ body {
 .post-author a {
   text-decoration: none;
   margin-left: 1rem;
+  color: navy;
 }
 
 .post-date {
@@ -102,6 +109,7 @@ body {
 
 .footer-headline {
   text-align: center;
+  color: navy;
 }
 
 .side-bar_heading {
@@ -115,6 +123,7 @@ body {
 
 .body-left {
   margin-top: 2rem;
+  /*border: 1px solid;*/
 }
 
 .img {
@@ -127,13 +136,15 @@ body {
 
 .body-right {
   margin-top: 2rem;
+  /*border: 1px solid;*/
 }
 
 .auth_profile {
   display: flex;
+  flex-direction: column;
   align-items: center;
-  margin-left: 15rem;
-  margin-top: 5rem;
+  margin-top: 3rem;
+  color:
 }
 
 .auth_profile img {
@@ -141,8 +152,8 @@ body {
 }
 
 .img-parent_sidebar {
-  margin-top: 1rem;
-  max-width: 25%;
+  /*margin-top: 1rem;*/
+  max-width: 35%;
 }
 
 .social-btn {
@@ -156,7 +167,7 @@ body {
 
 .ad-img {
   margin-top: 1rem;
-  padding-left: 11rem;
+  padding-left: 8rem;
 }
 
 .ad {
@@ -165,9 +176,11 @@ body {
 }
 
 .click-bait {
-  margin-left: 4rem;
+  margin-left: .5rem;
+  padding-left: 2rem;
   font-size: 2rem;
   color: navy;
+  border-left: 1px solid;
 }
 
 .btn {
@@ -177,8 +190,4 @@ body {
 
 .side-bar {
   color: navy;
-}
-
-.side-bar_text {
-  text-align: center;
 }

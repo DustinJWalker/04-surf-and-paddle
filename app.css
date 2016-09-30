@@ -69,6 +69,7 @@ body {
 
 .headline  {
   text-align: center;
+  font-size: 3rem;
 }
 
 .post-author  {
@@ -126,10 +127,38 @@ body {
   align-items:
 }
 
+.auth_profile{
+  display: flex;
+  align-items: center;
+  margin-left: 15rem;
+  margin-top: 5rem;
+}
+
 .auth_profile img {
   border-radius: 50%;
+
 }
 
 .img-parent_sidebar  {
-  max-width: 10%;
+  margin-top: 1rem;
+  max-width: 25%;
+}
+
+.social-btn  {
+  display: flex;
+  align-items: center;
+  margin-left: 10rem;
+  margin-top: 2rem;
+  border: none;
+}
+
+.ad-img  {
+  margin-top: 1rem;
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+.ad {
+  display: flex;
 }

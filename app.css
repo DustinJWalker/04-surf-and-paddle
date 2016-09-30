@@ -195,19 +195,29 @@ a {
 }
 
 .cool-posts  {
-  border: 1px solid;
+  /*border: 1px solid;*/
   display: flex;
   justify-content: center;
 }
 
-.img-parent_foot  {
-  max-width: 45%;
-}
-
 .img_1  {
-
+  position: relative;
 }
 
 .img_2  {
+  position: relative;
+}
 
+.img_3  {
+  position: relative;
+}
+
+.img_4  {
+position: relative;
+}
+
+h3  {
+  position: absolute;
+  top: 10rem;
+  color: #426bf4;
 }

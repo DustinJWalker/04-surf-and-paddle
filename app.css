@@ -25,6 +25,7 @@ body {
 
 .top-nav__item {
   margin: 0 0.5rem;
+  text-decoration: none;
 }
 
 
@@ -43,6 +44,7 @@ body {
   display: flex;
   margin: 0 -0.5rem;
   list-style-type: none;
+  text-decoration: none;
 }
 
 .hero-big__text {

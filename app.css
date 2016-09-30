@@ -6,6 +6,20 @@ body {
 * {
   box-sizing: border-box;
 }
+
+.hero {
+  background-image: url'(splash.com/collections/144661/surf-views)';
+  background-repeat:no-repeat;
+  background-position: center center;
+}
+
+.main  {
+  margin-top: 4rem;
+}
+
+.footer   {
+  margin-top: 4rem;
+}
 .hero-container {
   max-width: 65rem;
   margin: 0 auto;
@@ -26,6 +40,7 @@ body {
 .top-nav__item {
   margin: 0 0.5rem;
   text-decoration: none;
+  list-style: none;
 }
 
 

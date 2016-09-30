@@ -62,6 +62,18 @@ body {
   text-decoration: none;
 }
 
+.headline  {
+  text-align: center;
+}
+
+.post-author img {
+  border-radius: 50%;
+}
+
+.post-author a  {
+  text-decoration: none;
+}
+
 .hero-big__text {
   margin-top: 2em;
   font-size: 5em;

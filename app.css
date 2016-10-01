@@ -221,3 +221,39 @@ h3  {
   top: 10rem;
   color: #426bf4;
 }
+
+.bot-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+}
+
+.bot-nav a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.bot-nav_item {
+  margin: 0 0.5rem;
+  text-decoration: none;
+  list-style: none;
+}
+
+.bot-nav img {
+  /*border-radius: 50%;*/
+  height: 2em;
+  vertical-align: middle;
+}
+
+.bot-nav__logo {
+  display: flex;
+  margin: 0;
+}
+
+.bot-nav__links ul {
+  display: flex;
+  margin: 0 -0.5rem;
+  list-style-type: none;
+  text-decoration: none;
+}

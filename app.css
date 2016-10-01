@@ -11,6 +11,7 @@ a {
   text-decoration: none;
   color: navy;
 }
+
 .hero img {
   background-image: url'(splash.com/collections/144661/surf-views)';
   background-repeat: no-repeat;
@@ -194,29 +195,29 @@ a {
   color: navy;
 }
 
-.cool-posts  {
+.cool-posts {
   /*border: 1px solid;*/
   display: flex;
   justify-content: center;
 }
 
-.img_1  {
+.img_1 {
   position: relative;
 }
 
-.img_2  {
+.img_2 {
   position: relative;
 }
 
-.img_3  {
+.img_3 {
   position: relative;
 }
 
-.img_4  {
-position: relative;
+.img_4 {
+  position: relative;
 }
 
-h3  {
+h3 {
   position: absolute;
   top: 10rem;
   color: #426bf4;
@@ -256,4 +257,12 @@ h3  {
   margin: 0 -0.5rem;
   list-style-type: none;
   text-decoration: none;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: center;
+  margin: 2rem;
+  background-color: #0c367a;
+  color: white;
 }

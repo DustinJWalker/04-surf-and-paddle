@@ -13,7 +13,7 @@ a {
 }
 
 .hero  {
-  background-image: url('splash.com/collections/144661/surf-views');
+  background-image: url("splash.com/collections/144661/surf-views");
   background-repeat: no-repeat;
   background-position: center center;
 }
@@ -29,7 +29,7 @@ a {
 
 .footer {
   margin-top: 4rem;
-  border: 1px solid;
+  /*border: 1px solid;*/
 }
 
 .hero-container {
@@ -49,9 +49,10 @@ a {
 }
 
 .top-nav__item {
-  margin: 0 0.5rem;
-  text-decoration: none;
-  list-style: none;
+  text-align: center;
+  display: block;
+  float: right;
+  margin-right: 2rem;
 }
 
 .top-nav img {
@@ -70,6 +71,7 @@ a {
   margin: 0 -0.5rem;
   list-style-type: none;
   text-decoration: none;
+
 }
 
 .headline {
@@ -241,9 +243,10 @@ h3 {
 }
 
 .bot-nav_item {
-  margin: 0 0.5rem;
-  text-decoration: none;
-  list-style: none;
+  text-align: center;
+  display: block;
+  float: right;
+  margin-right: 2rem;
 }
 
 .bot-nav img {
@@ -267,7 +270,9 @@ h3 {
 .footer-container {
   display: flex;
   justify-content: center;
-  margin: 2rem;
+  /*margin: 2rem;*/
   background-color: #0c367a;
   color: white;
+  /*max-width: 65rem;*/
+  overflow: auto;
 }

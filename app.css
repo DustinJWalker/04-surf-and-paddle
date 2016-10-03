@@ -57,7 +57,7 @@ a {
   margin-right: 2rem;
 }
 
-.top-nav img {
+.top-nav-img {
   border-radius: 50%;
   height: 2em;
   vertical-align: middle;
@@ -102,13 +102,14 @@ a {
 }
 
 .hero-big__text {
-  margin-top: 2em;
+  margin-bottom: 1em;
   font-size: 5em;
   text-align: center;
 }
 
 .hero-small__text {
   text-align: center;
+  margin-bottom: 2rem;
 }
 
 .footer-headline {
@@ -155,6 +156,7 @@ a {
 
 .auth_profile img {
   border-radius: 50%;
+  max-width: 20%;
 }
 
 .img-parent_sidebar {
@@ -175,9 +177,14 @@ button {
   border: none;
 }
 
-.ad-img {
+.ad-img-parent {
   margin-top: 1rem;
   padding-left: 8rem;
+
+}
+
+.ad-img-child  {
+  max-width: 80%;
 }
 
 .ad {
@@ -200,6 +207,10 @@ button {
 
 .side-bar {
   color: #0c367a;
+}
+
+.side-text  {
+
 }
 
 .cool-posts {
@@ -231,11 +242,11 @@ button {
     height: 100%;
     object-fit: cover;
 }
-}
+
 
 h3 {
   position: absolute;
-  top: 10rem;
+  top: 8rem;
   color: #426bf4;
 }
 

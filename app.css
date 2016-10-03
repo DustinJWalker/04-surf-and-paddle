@@ -35,7 +35,7 @@ a {
 }
 
 .hero-container {
-  margin: 2rem;
+
 }
 
 .top-nav {
@@ -261,6 +261,7 @@ h3 {
   justify-content: space-between;
   align-items: center;
   padding: 1rem 2rem;
+
 }
 
 .bot-nav a {
@@ -270,8 +271,7 @@ h3 {
 
 .bot-nav_item {
   text-align: center;
-  display: block;
-  float: right;
+
   margin-right: 2rem;
 }
 
@@ -291,11 +291,12 @@ h3 {
   margin: 0 -0.5rem;
   list-style-type: none;
   text-decoration: none;
+
 }
 
 .footer-container {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   /*margin: 2rem;*/
   background-color: #0c367a;
   color: white;

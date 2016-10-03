@@ -121,6 +121,8 @@ a {
 
 .side-bar_heading {
   text-align: center;
+  margin-left: 4rem;
+  margin-top: 4rem;
 }
 
 .side-bar {
@@ -167,8 +169,8 @@ a {
 .social-btn {
   display: flex;
   align-items: center;
-  margin-left: 1 rem;
-  margin-top: 2rem;
+  /*margin-left: 1 rem;*/
+  margin-bottom: 2rem;
   justify-content: center;
 }
 
@@ -181,6 +183,7 @@ button {
   margin-top: 1rem;
   padding-left: 8rem;
 
+
 }
 
 .ad-img-child  {
@@ -188,8 +191,11 @@ button {
 }
 
 .ad {
-  margin-left: 6rem;
-  display: flex;
+  position: absolute;
+  right: 13rem;
+  color: gray;
+  text-decoration:
+
 }
 
 .click-bait {

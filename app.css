@@ -12,10 +12,12 @@ a {
   color: #0c367a;
 }
 
-.hero  {
-  background-image: url("splash.com/collections/144661/surf-views");
+.hero {
+  background-image: url("./img/surfer.jpeg");
   background-repeat: no-repeat;
   background-position: center center;
+  color: white;
+  overflow: auto;
 }
 
 .main {
@@ -71,7 +73,6 @@ a {
   margin: 0 -0.5rem;
   list-style-type: none;
   text-decoration: none;
-
 }
 
 .headline {
@@ -170,7 +171,6 @@ a {
 }
 
 button {
-
   background: none;
   border: none;
 }
@@ -206,22 +206,27 @@ button {
   /*border: 1px solid;*/
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
-.img_1 {
-  position: relative;
+.cool-posts-img  {
+  display: flex;
+  width: calc(100% * 1 / 4);
+  flex-wrap: wrap;
+
+
+
+
 }
 
-.img_2 {
-  position: relative;
-}
+.img {
+  display: flex;
 
-.img_3 {
-  position: relative;
-}
 
-.img_4 {
   position: relative;
+
+
+
 }
 
 h3 {

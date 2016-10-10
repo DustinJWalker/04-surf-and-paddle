@@ -28,7 +28,7 @@ a {
   justify-content: space-between;
   align-items: center;
   margin: auto;
-  max-width: 80%;
+  max-width: 50rem;
 }
 
 .footer {
@@ -44,12 +44,14 @@ a {
 }
 
 .top-nav {
-  /*max-width: 65rem;*/
-  margin-left: 15%;
+  max-width: 65rem;
+    margin-left: 6rem;
   display: flex;
-  justify-content: space-between;
+  position: relative;
+  justify-content: space-around;
   align-items: center;
   padding: 1rem 2rem;
+
 }
 
 .top-nav a {
@@ -61,23 +63,26 @@ a {
   text-align: center;
   display: block;
   float: right;
-  margin-right: 2rem;
+  padding-right: 1rem;
 }
 
 .top-nav-img {
   border-radius: 50%;
   height: 2em;
   vertical-align: middle;
+  /*margin-left: 3rem;*/
 }
 
 .top-nav__logo {
-  display: flex;
-  margin: 0;
+  /*display: flex;*/
+
+
+  /*margin: 0;*/
 }
 
-.top-nav__links ul {
-  display: flex;
-  margin: 0 -0.5rem;
+.top-nav__links  {
+  /*display: flex;*/
+
   list-style-type: none;
   text-decoration: none;
 }
@@ -160,7 +165,8 @@ a {
   flex-direction: column;
   align-items: center;
   margin-top: 3rem;
-  color:
+  margin-left: 2rem;
+  position: relative;
 }
 
 .auth_profile img {
@@ -176,19 +182,22 @@ a {
 .social-btn {
   display: flex;
   align-items: center;
-  /*margin-left: 1 rem;*/
-  margin-bottom: 2rem;
+  margin-left: 4rem;
+  margin-top: 1rem;
   justify-content: center;
+
 }
 
 button {
   background: none;
   border: none;
+  margin-right: 2rem;
 }
 
 .ad-img-parent {
   margin-top: 1rem;
-  padding-left: 8rem;
+  margin-left: 6rem;
+  position: relative;
 
 
 }
@@ -198,8 +207,8 @@ button {
 }
 
 .ad {
-  position: absolute;
-  right: 14rem;
+  position: relative;
+  left: 8rem;
   color: gray;
   text-decoration:
 
@@ -220,6 +229,11 @@ button {
 
 .side-bar {
   color: #0c367a;
+}
+
+.side-text  {
+  text-align: center;
+
 }
 
 .more-content  {

@@ -13,7 +13,7 @@ a {
 }
 
 .hero {
-  /*max-width: 70rem;*/
+    max-width: 100%;
   /*margin-left: 6%;*/
   background-image: url("./img/surfer.jpeg");
   background-repeat: no-repeat;
@@ -44,15 +44,16 @@ a {
 }
 
 .top-nav {
-  max-width: 65rem;
-    margin-left: 6rem;
   display: flex;
-  position: relative;
-  justify-content: space-around;
+  max-width: 65rem;
+  margin-left: 16rem;
   align-items: center;
-  padding: 1rem 2rem;
-
 }
+
+
+
+
+
 
 .top-nav a {
   color: inherit;
@@ -60,31 +61,27 @@ a {
 }
 
 .top-nav__item {
-  text-align: center;
-  display: block;
-  float: right;
-  padding-right: 1rem;
+  margin: 0 0.5rem;
+  list-style-type: none;
 }
 
 .top-nav-img {
   border-radius: 50%;
   height: 2em;
   vertical-align: middle;
-  /*margin-left: 3rem;*/
 }
 
-.top-nav__logo {
-  /*display: flex;*/
+.top-nav__logo--text {
+  display: flex;
+  margin: 0;
+  padding-left: 1rem;
 
-
-  /*margin: 0;*/
 }
 
 .top-nav__links  {
-  /*display: flex;*/
+  display: flex;
+  margin-left: 18rem;
 
-  list-style-type: none;
-  text-decoration: none;
 }
 
 .headline {

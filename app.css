@@ -13,8 +13,8 @@ a {
 }
 
 .hero {
-    max-width: 100%;
-  /*margin-left: 6%;*/
+
+
   background-image: url("./img/surfer.jpeg");
   background-repeat: no-repeat;
   background-position: center center;
@@ -40,14 +40,19 @@ a {
 
 .hero-container {
   max-width: 65rem;
+  display: flex;
 
 }
 
+
 .top-nav {
   display: flex;
-  max-width: 65rem;
-  margin-left: 16rem;
+  justify-content: space-between;
+  overflow: auto;
   align-items: center;
+  max-width: 50rem;
+  margin-left: 12rem;
+  position: relative;
 }
 
 
@@ -66,13 +71,15 @@ a {
 }
 
 .top-nav-img {
+
   border-radius: 50%;
   height: 2em;
   vertical-align: middle;
+  /*margin-right: 3rem;*/
 }
 
 .top-nav__logo--text {
-  display: flex;
+  /*display: flex;*/
   margin: 0;
   padding-left: 1rem;
 
@@ -80,7 +87,7 @@ a {
 
 .top-nav__links  {
   display: flex;
-  margin-left: 18rem;
+
 
 }
 
@@ -269,7 +276,7 @@ button {
 }
 
 
-h3 {
+.cool-posts__text {
   position: absolute;
   top: 8.5rem;
   color: #426bf4;

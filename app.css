@@ -12,6 +12,11 @@ a {
   color: #0c367a;
 }
 
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
 .hero {
 
 
@@ -39,7 +44,7 @@ a {
 }
 
 .hero-container {
-  max-width: 65rem;
+  max-width: 50rem;
   display: flex;
 
 }
@@ -52,17 +57,11 @@ a {
 
 .top-nav {
   display: flex;
-  justify-content: space-between;
   overflow: auto;
   align-items: center;
 
   position: relative;
 }
-
-
-
-
-
 
 .top-nav a {
   color: inherit;
@@ -82,17 +81,21 @@ a {
   /*margin-right: 3rem;*/
 }
 
-.top-nav__logo--text {
-  /*display: flex;*/
-  margin: 0;
-  padding-left: 1rem;
+.top-nav__group--left {
+  flex-grow: 1;
+}
 
+.top-nav__group--logo {
+  flex-grow: 1;
+  margin: 0;
+  text-align: center;
 }
 
 .top-nav__links  {
+  flex-grow: 1;
   display: flex;
-
-
+  justify-content: flex-end;
+  margin: 0 -0.5rem;
 }
 
 .headline {
@@ -122,7 +125,7 @@ a {
 }
 
 .hero-big__text {
-  margin-bottom: 1em;
+  margin: 2rem 0;
   font-size: 5em;
   text-align: center;
 }
@@ -240,7 +243,8 @@ button {
 }
 
 .side-text  {
-  text-align: center;
+  text-align: justify;
+
 
 }
 
@@ -282,7 +286,9 @@ button {
 
 .cool-posts__text {
   position: absolute;
-  top: 8.5rem;
+  left: 1rem;
+  bottom: 1rem;
+  margin: 0;
   color: #426bf4;
   z-index: 10;
 }
@@ -294,13 +300,7 @@ button {
 }
 
 .bot-nav {
-  display: flex;
-  justify-content: space-around;
-  vertical-align: middle;
-  height: 8rem;
-  align-items: center;
   padding: 1rem 2rem;
-
 }
 
 .bot-nav a {
@@ -313,7 +313,7 @@ button {
   /*vertical-align: middle;*/
   text-align: center;
   margin: auto;
-  padding-right: 1rem;
+  margin: 0 0.5rem;
 }
 
 .bot-nav img {
@@ -322,8 +322,9 @@ button {
   vertical-align: middle;
 }
 
-.bot-nav__logo {
+.bot-nav_logo {
   display: flex;
+  align-items: center;
   margin: 0;
 }
 
@@ -331,7 +332,7 @@ button {
   display: flex;
 
   align-items: center;
-  padding-right: 1rem;
+  margin: 0 -0.5rem;
 
   list-style-type: none;
   text-decoration: none;
@@ -347,14 +348,15 @@ button {
 
 .bot-nav__logo--text  {
   margin: 0;
+}
 
-
+.bot-nav__flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .wrapper  {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  max-width: 65rem;
-  margin: 0;
+  max-width: 50rem;
+  margin: 0 auto;;
 }
